@@ -81,7 +81,7 @@ function drawHand(ctx, pos, length, width){
     ctx.rotate(-pos);
 }
 
-setInterval(drawClock, 5000);
+setInterval(drawClock, 50000);
 
 function drawClock(){
     drawFace(ctx, radius);
